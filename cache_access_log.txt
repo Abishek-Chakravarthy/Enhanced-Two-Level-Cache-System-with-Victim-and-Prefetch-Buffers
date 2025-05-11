@@ -1,0 +1,123 @@
+Access	Address		Result		Details
+-------------------------------------------------
+DATA	0x0000	L1 MISS	L2 MISS		Loading from memory -> L2[0][0] Prefetch queued
+DATA	0x0010	L1 MISS	STREAM HIT	
+DATA	0x0020	L1 MISS	L2 MISS		Loading from memory -> L2[2][0] Prefetch queued
+DATA	0x0030	L1 MISS	STREAM HIT	
+DATA	0x0040	L1 MISS	L2 MISS		Loading from memory -> L2[4][0] Prefetch queued
+DATA	0x0050	L1 MISS	STREAM HIT	
+DATA	0x0060	L1 MISS	L2 MISS		Loading from memory -> L2[6][0] Prefetch queued
+DATA	0x0070	L1 MISS	STREAM HIT	
+DATA	0x0080	L1 MISS	L2 MISS		Loading from memory -> L2[8][0] Prefetch queued
+DATA	0x0090	L1 MISS	STREAM HIT	
+DATA	0x00a0	L1 MISS	L2 MISS		Loading from memory -> L2[10][0] Prefetch queued
+DATA	0x00b0	L1 MISS	STREAM HIT	
+DATA	0x00c0	L1 MISS	L2 MISS		Loading from memory -> L2[12][0] Prefetch queued
+DATA	0x00d0	L1 MISS	STREAM HIT	
+DATA	0x00e0	L1 MISS	L2 MISS		Loading from memory -> L2[14][0] Prefetch queued
+DATA	0x00f0	L1 MISS	STREAM HIT	
+DATA	0x0800	L1 MISS	L2 MISS		Loading from memory -> L2[128][0] (Moved L1[0] to victim cache) Prefetch queued
+[WRITE BUFFER] Added block 128
+DATA	0x1000	L1 MISS	L2 MISS		Loading from memory -> L2[0][1] (Moved L1[0] to write buffer) Prefetch queued
+[WRITE BUFFER] Added block 256
+DATA	0x1800	L1 MISS	L2 MISS		Loading from memory -> L2[128][1] (Moved L1[0] to write buffer) Prefetch queued
+[WRITE BUFFER] Added block 384
+DATA	0x0000	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to write buffer)
+DATA	0x0800	L1 MISS	L2 HIT		Set:128 Way:0 (Moved L1[0] to victim cache) Prefetch queued
+[WRITE BUFFER] Added block 128
+DATA	0x1000	L1 MISS	L2 HIT		Set:0 Way:1 (Moved L1[0] to write buffer) Prefetch queued
+DATA	0x1800	L1 MISS	L2 HIT		Set:128 Way:1 (Moved L1[0] to victim cache) Prefetch queued
+DATA	0x2710	L1 MISS	L2 MISS		Loading from memory -> L2[113][0] Prefetch queued
+DATA	0x2720	L1 MISS	STREAM HIT	
+DATA	0x2730	L1 MISS	L2 MISS		Loading from memory -> L2[115][0] Prefetch queued
+DATA	0x2740	L1 MISS	STREAM HIT	
+DATA	0x2750	L1 MISS	L2 MISS		Loading from memory -> L2[117][0] Prefetch queued
+DATA	0x2760	L1 MISS	STREAM HIT	
+DATA	0x2770	L1 MISS	L2 MISS		Loading from memory -> L2[119][0] Prefetch queued
+DATA	0x2780	L1 MISS	STREAM HIT	
+DATA	0x2790	L1 MISS	L2 MISS		Loading from memory -> L2[121][0] Prefetch queued
+DATA	0x27a0	L1 MISS	STREAM HIT	
+DATA	0x27b0	L1 MISS	L2 MISS		Loading from memory -> L2[123][0] Prefetch queued
+DATA	0x27c0	L1 MISS	STREAM HIT	
+DATA	0x27d0	L1 MISS	L2 MISS		Loading from memory -> L2[125][0] Prefetch queued
+DATA	0x27e0	L1 MISS	STREAM HIT	
+DATA	0x27f0	L1 MISS	L2 MISS		Loading from memory -> L2[127][0] Prefetch queued
+DATA	0x2800	L1 MISS	STREAM HIT	Replaced L1[0]
+DATA	0x0800	L1 MISS	L2 HIT		Set:128 Way:0 (Moved L1[0] to victim cache) Prefetch queued
+[WRITE BACK] Block 128 to memory
+[WRITE BUFFER] Added block 128
+DATA	0x1000	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to write buffer)
+DATA	0x1800	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to victim cache)
+[WRITE BACK] Block 256 to memory
+[WRITE BUFFER] Added block 384
+DATA	0x0000	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to write buffer)
+DATA	0x0010	L1 WRITE HIT	Block: 1
+DATA	0x0020	L1 READ HIT	Block: 2
+DATA	0x0030	L1 READ HIT	Block: 3
+DATA	0x0040	L1 READ HIT	Block: 4
+DATA	0x0050	L1 READ HIT	Block: 5
+DATA	0x0060	L1 READ HIT	Block: 6
+DATA	0x0070	L1 READ HIT	Block: 7
+DATA	0x0080	L1 READ HIT	Block: 8
+DATA	0x0090	L1 READ HIT	Block: 9
+DATA	0x00a0	L1 READ HIT	Block: 10
+DATA	0x00b0	L1 READ HIT	Block: 11
+DATA	0x00c0	L1 READ HIT	Block: 12
+DATA	0x00d0	L1 READ HIT	Block: 13
+DATA	0x00e0	L1 READ HIT	Block: 14
+DATA	0x00f0	L1 READ HIT	Block: 15
+DATA	0x0800	L1 MISS	L2 HIT		Set:128 Way:0 (Moved L1[0] to victim cache) Prefetch queued
+[WRITE BACK] Block 384 to memory
+[WRITE BUFFER] Added block 128
+DATA	0x1000	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to write buffer)
+[WRITE BACK] Block 128 to memory
+[WRITE BUFFER] Added block 256
+DATA	0x1800	L1 MISS	L2 HIT		Set:128 Way:1 (Moved L1[0] to write buffer) Prefetch queued
+DATA	0x2710	L1 READ HIT	Block: 625
+DATA	0x2720	L1 READ HIT	Block: 626
+DATA	0x2730	L1 WRITE HIT	Block: 627
+DATA	0x2740	L1 READ HIT	Block: 628
+DATA	0x2750	L1 READ HIT	Block: 629
+DATA	0x2760	L1 READ HIT	Block: 630
+DATA	0x2770	L1 READ HIT	Block: 631
+DATA	0x2780	L1 READ HIT	Block: 632
+DATA	0x2790	L1 READ HIT	Block: 633
+DATA	0x27a0	L1 READ HIT	Block: 634
+DATA	0x27b0	L1 READ HIT	Block: 635
+DATA	0x27c0	L1 READ HIT	Block: 636
+DATA	0x27d0	L1 READ HIT	Block: 637
+DATA	0x27e0	L1 READ HIT	Block: 638
+DATA	0x27f0	L1 READ HIT	Block: 639
+[WRITE BACK] Block 128 to memory
+[WRITE BUFFER] Added block 384
+DATA	0x2800	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to write buffer)
+DATA	0x0000	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to victim cache)
+DATA	0x2760	L1 WRITE HIT	Block: 630
+DATA	0x0800	L1 MISS	L2 HIT		Set:128 Way:0 (Moved L1[0] to victim cache) Prefetch queued
+DATA	0x2750	L1 WRITE HIT	Block: 629
+DATA	0x0800	L1 READ HIT	Block: 128
+DATA	0x2710	L1 READ HIT	Block: 625
+DATA	0x2720	L1 READ HIT	Block: 626
+DATA	0x2730	L1 WRITE HIT	Block: 627
+DATA	0x2740	L1 READ HIT	Block: 628
+DATA	0x2750	L1 READ HIT	Block: 629
+DATA	0x2760	L1 READ HIT	Block: 630
+DATA	0x2770	L1 READ HIT	Block: 631
+DATA	0x2780	L1 READ HIT	Block: 632
+DATA	0x2790	L1 READ HIT	Block: 633
+DATA	0x27a0	L1 READ HIT	Block: 634
+DATA	0x27b0	L1 READ HIT	Block: 635
+DATA	0x27c0	L1 READ HIT	Block: 636
+DATA	0x27d0	L1 READ HIT	Block: 637
+DATA	0x27e0	L1 READ HIT	Block: 638
+DATA	0x27f0	L1 READ HIT	Block: 639
+DATA	0x2800	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to victim cache)
+DATA	0x0800	L1 MISS	VICTIM HIT	Replaced L1[0] (Moved L1[0] to victim cache)
+[WRITE BACK] Block 384 to memory
+[WRITE BUFFER] Added block 128
+DATA	0x1000	L1 MISS	L2 HIT		Set:0 Way:1 (Moved L1[0] to write buffer) Prefetch queued
+DATA	0x1800	L1 MISS	L2 HIT		Set:128 Way:1 (Moved L1[0] to victim cache) Prefetch queued
+[WRITE BACK] Block 128 to memory
+[WRITE BACK] Block 256 to memory
+[WRITE BACK] Block 384 to memory
+[WRITE BACK] Block 128 to memory
