@@ -4,9 +4,8 @@
 ## Overview
 This project simulates and compares two cache architectures: a **Basic Cache** and an **Enhanced Multi-Level Cache**. The goal is to evaluate how advanced cache features affect performance under spatial and temporal memory access patterns.
 
-## Authors
+## Author
 - Abishek Chakravarthy (CS22B2054)
-- Aswinth Anbu (CS22B2055)
 - IIITDM, February 2025
 
 ## Files
